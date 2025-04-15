@@ -66,6 +66,9 @@ const TransactionList = () => {
           data={filteredData}
           renderItem={renderItem}
           keyExtractor={keyExtractor}
+          initialNumToRender={10}
+          maxToRenderPerBatch={10}
+          windowSize={5}
           ListEmptyComponent={
             <Text style={styles.emptyComponent}>
               Sepertinya data yang anda cari tidak ada

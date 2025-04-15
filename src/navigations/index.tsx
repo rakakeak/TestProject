@@ -15,7 +15,10 @@ const NavigationRouter = () => {
       <Stack.Screen
         name="TransactionDetail"
         component={TransactionDetail}
-        options={{headerShown: false}}
+        options={{
+          headerBackTitle: 'Kembali',
+          headerTitle: 'Detail Transaksi',
+        }}
       />
     </Stack.Navigator>
   );

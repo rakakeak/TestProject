@@ -1,5 +1,5 @@
 import {useCallback, useState, useRef} from 'react';
-import api from '../config/api';
+import api from '@/configs/api';
 import {Transaction} from '@/models';
 
 type UseTransactionDataProps = {
