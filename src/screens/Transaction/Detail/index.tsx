@@ -58,6 +58,7 @@ const TransactionDetail = ({route}: Props) => {
           </Text>
         </TouchableOpacity>
       </View>
+      <View style={styles.line} />
 
       {expanded && (
         <View>
@@ -93,12 +94,13 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 10,
     flex: 1,
+    backgroundColor: 'white',
   },
   contentTitle: {
     paddingVertical: 20,
   },
   contentSub: {
-    paddingVertical: 20,
+    paddingTop: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
@@ -127,6 +129,11 @@ const styles = StyleSheet.create({
     color: '#FF5000',
     fontSize: 16,
     fontWeight: 'bold',
+  },
+  line: {
+    borderWidth: 0.5,
+    width: '100%',
+    marginVertical: 20,
   },
 });
 

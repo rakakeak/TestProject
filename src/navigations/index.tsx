@@ -18,6 +18,7 @@ const NavigationRouter = () => {
         options={{
           headerBackTitle: 'Kembali',
           headerTitle: 'Detail Transaksi',
+          headerTintColor: '#FF5000'
         }}
       />
     </Stack.Navigator>
