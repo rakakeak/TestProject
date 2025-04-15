@@ -13,7 +13,7 @@ const NavigationRouter = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="DetailTransaction"
+        name="TransactionDetail"
         component={TransactionDetail}
         options={{headerShown: false}}
       />
